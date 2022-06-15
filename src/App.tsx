@@ -5,7 +5,8 @@ import './App.css'
 
 function App() {
   const [count, setCount] = useState(0)
-
+  MB.ajax('api/test')
+  console.log(MB.user)
   return (
     <div className="App">
       <div>
